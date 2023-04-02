@@ -1,0 +1,36 @@
+{
+  "name": "xbesh-hub",
+  "version": "1.0.0",
+  "description": "SDK for xBesh Developer Hub API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xbesh/developer-hub.git"
+  },
+  "keywords": [
+    "xBesh",
+    "API",
+    "developer",
+    "hub"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongoose": "^6.1.6",
+    "jsonwebtoken": "^8.5.1",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.1.4"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
