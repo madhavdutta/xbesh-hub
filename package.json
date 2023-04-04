@@ -1,7 +1,7 @@
 {
-  "name": "xbesh-hub",
-  "version": "1.0.2",
-  "description": "xBesh Developer Hub is a web application that provides a centralized location for developers to interact with the xBesh API. The application is built using Node.js and Express.js for the server-side, and MongoDB for the database. It also utilizes JWT for authentication and bcrypt for password hashing.",
+  "name": "xbesh-adapter",
+  "version": "1.0.0",
+  "description": "xBesh-Adapter is a powerful and flexible adapter that seamlessly integrates xBesh and NextAuthJS into your NextJS application. The adapter provides support for authentication and session management using JWT, allowing you to easily and securely manage user authentication in your application. xBesh is a state-of-the-art framework built over PocketBase that provides developers with a robust and scalable solution for building modern web applications. With xBesh-Adapter, you can easily integrate this cutting-edge technology into your NextJS project, allowing you to take advantage of all the features and benefits that xBesh has to offer. The adapter is designed to be flexible and customizable, allowing you to configure it to meet the specific needs of your application. It provides a wide range of configuration options, allowing you to easily set up authentication and session management in your application. Whether you're building a small personal project or a large enterprise application, xBesh-Adapter provides the flexibility and scalability you need. Overall, xBesh-Adapter is a powerful and reliable solution for integrating xBesh and NextAuthJS into your NextJS application. With its robust features, flexible configuration options, and seamless integration with xBesh, it provides everything you need to build modern, secure, and scalable web applications.",
   "main": "index.js",
   "scripts": {
     "build": "next build",
@@ -11,6 +11,10 @@
   "keywords": [
     "authentication",
     "email",
+    "pocketbase",
+    "adapter",
+    "nextauth",
+    "authjs",
     "database",
     "xbesh"
   ],
@@ -42,7 +46,6 @@
     "next-auth": "^4.20.1",
     "nodemailer": "^6.9.1",
     "pocketbase": "^0.13.1",
-    "postmark": "^3.0.15",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-hook-form": "^7.43.9",
@@ -59,7 +62,7 @@
     "url": "https://github.com/madhavdutta/xbesh-hub"
   },
   "bugs": {
-    "url": "https://github.com/madhavdutta/xbesh-hubissues"
+    "url": "https://github.com/madhavdutta/xbesh-hub/issues"
   },
   "homepage": "https://github.com/madhavdutta/xbesh-hub"
 }
