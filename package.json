@@ -1,6 +1,6 @@
 {
   "name": "xbesh-hub",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "xBesh Developer Hub is a web application that provides a centralized location for developers to interact with the xBesh API. The application is built using Node.js and Express.js for the server-side, and MongoDB for the database. It also utilizes JWT for authentication and bcrypt for password hashing.",
   "main": "index.js",
   "scripts": {
